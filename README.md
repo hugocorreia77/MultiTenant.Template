@@ -11,7 +11,7 @@ It uses the vertical slices architecture:
 - Services
 - Repositories
 
-## Which Multi-tenant arquitecture does it supports?
+## Which Multi-tenant architecture does it supports?
 This template can use any of common tenancy models:
 Please, check [Microsoft Tenancy Models](https://learn.microsoft.com/en-us/azure/architecture/guide/multitenant/considerations/tenancy-models)
 
