@@ -11,12 +11,12 @@ namespace Repository.TenantControlPlane
             [
                 new KeyValuePair<string, AbstractRepositoryConfiguration>
                     ("tenant1", new MongoDbConfiguration{
-                        DatabaseName = "UsersDomainDB",
-                        ConnectionString = "mongodb://localhost:27017/empresa1"
+                        DatabaseName = "Company1DB",
+                        ConnectionString = "mongodb://localhost:27017/company1"
                     }),
                 new KeyValuePair<string, AbstractRepositoryConfiguration>(
                     "tenant2", new MySqlDbConfiguration{
-                        ConnectionString = "Server=localhost;Database=TenantControlPlane;User Id=root;Password=;"
+                        ConnectionString = "Server=localhost;Database=company2;User Id=root;Password=;"
                     })
             ]);
 
