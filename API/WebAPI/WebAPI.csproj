@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" Version="6.2.0" />
+    <PackageReference Include="Finbuckle.MultiTenant" Version="9.2.2" />
+    <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="9.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Repository\Repository.Abstractions\Repository.Abstractions.csproj" />
+    <ProjectReference Include="..\..\Repository\Repository.MongoDb\Repository.MongoDb.csproj" />
+    <ProjectReference Include="..\..\Repository\Repository.MySql\Repository.MySql.csproj" />
+    <ProjectReference Include="..\..\Repository\Repository.TenantControlPlane\Repository.TenantControlPlane.csproj" />
+    <ProjectReference Include="..\..\Services\Services.Abstractions\Services.Abstractions.csproj" />
+    <ProjectReference Include="..\..\Services\Services.Users\Services.Users.csproj" />
+  </ItemGroup>
+
+</Project>
